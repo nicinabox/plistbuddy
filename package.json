@@ -4,12 +4,14 @@
   "description": "A handy tool to manipulate plist files. Useful for iOS development.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "Nic Aitch <nic@nicinabox.com> (nicinabox.com)",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "unexpected": "^10.19.0"
   }
 }
